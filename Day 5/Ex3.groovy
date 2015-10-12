@@ -13,4 +13,20 @@ while (!finished) {
 }
 
 String sizeString = p.substring(1, p.size()); //remove the 'A'
-int paperSize = Integer.parseInt(sizeString);
+
+int paperSize;
+if(sizeString.charAt(0) == '0')
+	paperSize = 1 - sizeString.length(); //1 zero = 0, 2 zeros = -1
+else
+	paperSize = Integer.parseInt(sizeString);
+	
+/*	
+int x = sizeOf(paperSize);
+
+
+int sizeOf(int a) {
+	
+	
+	return 
+}
+*/
