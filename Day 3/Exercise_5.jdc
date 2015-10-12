@@ -1,0 +1,14 @@
+print ("input string: ");
+String str = readLine();
+
+print ("what letter would you like to count? ");
+char c = Character.parseChar(readLine());
+
+int count = 0;
+for(int i = 0; i < str.length(); i++) {
+	if(str.charAt(i) == c) {
+		count ++;
+	}
+}
+
+println ("There are " + count + " " + c + "/'s");

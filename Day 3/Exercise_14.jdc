@@ -1,0 +1,38 @@
+Rectangle bob = new Rectangle();
+
+bob.upLeft = new Point();
+bob.upLeft.x = 0;
+bob.upLeft.y = 10;
+
+bob.downRight = new Point();
+bob.downRight.x = 5;
+bob.downRight.y = 0;
+
+Point whatIf = new Point();
+print ("input x: ");
+whatIf.x = readDouble();
+print ("input y: ");
+whatIf.y = readDouble();
+
+String reply = "";
+
+if ((((whatIf.x >= bob.upLeft.x && 
+	whatIf.y <= bob.upLeft.y) && 
+	whatIf.x <= bob.downRight.x) && 
+	whatIf.y >= bob.downRight.y)) {
+	reply = "inside";
+} else {
+	reply = "outside";
+}
+
+println ("This point is " + reply);
+
+class Point {
+	double x;
+	double y;
+}
+
+class Rectangle {
+	Point upLeft;
+	Point downRight;
+}

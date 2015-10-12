@@ -1,0 +1,37 @@
+Point a = new Point();
+Point b = new Point();
+Point c = new Point();
+
+a.x = 20;
+a.y = 0;
+
+b.x = 1;
+b.y = 0;
+
+c.x = 2;
+c.y = 1;
+
+double distance_ab = Math.abs(a.x - b.x) + Math.abs(a.y - b.y);
+double distance_ac = Math.abs(a.x - c.x) + Math.abs(a.y - c.y);
+double distance_bc = Math.abs(b.x - c.x) + Math.abs(b.y - c.y);
+
+double min = distance_ab;
+String reply = "a and b";
+
+if(distance_ac < min) {
+	min = distance_ac;
+	reply = "a and c";
+}
+if(distance_bc < min) {
+	min = distance_bc;
+	reply = "b and c";
+}
+
+println ("The two closest points are points " + reply);
+
+
+class Point {
+	double x;
+	double y;
+}
+

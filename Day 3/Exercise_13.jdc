@@ -1,0 +1,29 @@
+Rectangle bob = new Rectangle();
+
+bob.upLeft = new Point();
+bob.upLeft.x = 0;
+bob.upLeft.y = 10;
+
+bob.downRight = new Point();
+bob.downRight.x = 5;
+bob.downRight.y = 0;
+
+double sideA = Math.abs(bob.upLeft.x - bob.downRight.x);
+double sideB = Math.abs(bob.upLeft.y - bob.downRight.y);
+double perimeter = 2*sideA + 2*sideB;
+double area = sideA*sideB;
+
+println ("Side a = "+sideA+" and side b = "+sideB);
+
+println ("Perimeter = "+perimeter);
+println ("Area = "+area);
+
+class Point {
+	double x;
+	double y;
+}
+
+class Rectangle {
+	Point upLeft;
+	Point downRight;
+}

@@ -1,0 +1,84 @@
+print ("How much does the item cost? ");
+double price = readDouble();
+
+double pay = -1;
+boolean finished = false;
+while(!finished) {
+	print ("How much will you pay with? ");
+	pay = readDouble();
+	if(price>pay) {
+		println ("Not enough money!");
+	} else {
+		finished = true;
+	}
+}
+
+double change = pay - price;
+
+int fifty = 0;
+int twenty = 0;
+int ten = 0;
+int five = 0;
+int two = 0;
+int one = 0;
+int pence50 = 0;
+int pence20 = 0;
+int pence10 = 0;
+int pence5 = 0;
+int pence2 = 0;
+int pence1 = 0;
+
+while (change != 0) {
+	if(50 < change) {
+		change -= 50;
+		fifty++;
+	} else if(20 < change) {
+		change -= 20;
+		twenty++;
+	} else if(10 < change) {
+		change -= 10;
+		ten++;
+	} else if(5 < change) {
+		change -= 5;
+		five++;
+	} else if(2 < change) {
+		change -= 2;
+		two++;
+	} else if(1 < change) {
+		change -= 1;
+		two++;
+	} else if(0.5 < change) {
+		change -= 0.5;
+		pence50++;
+	} else if(0.2 < change) {
+		change -= 0.2;
+		pence20++;
+	} else if(0.1 < change) {
+		change -= 0.1;
+		pence10++;
+	}  else if(0.05 < change) {
+		change -= 0.05;
+		pence5++;
+	} else if(0.02 < change) {
+		change -= 0.02;
+		pence2++;
+	} else if(0.01 < change) {
+		change -= 0.01;
+		pence1++;
+	} else {
+		break;
+	}
+}
+
+println ("50: " + fifty);
+println ("20: " + twenty);
+println ("10: " + ten);
+println ("5: " + five);
+println ("2: " + two);
+println ("1: " + one);
+println ("0.50: " + pence50);
+println ("0.20: " + pence20);
+println ("0.10: " + pence10);
+println ("0.05: " + pence5);
+println ("0.02: " + pence2);
+println ("0.01: " + pence1);

@@ -1,0 +1,11 @@
+print (">: ");
+String s = readLine();
+
+for (int i = 0; i < s.length(); i++) {
+	char left = s.charAt(i);
+	int h = left - 0;
+	println (left);
+}
+
+
+

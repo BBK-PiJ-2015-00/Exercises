@@ -1,0 +1,34 @@
+print (">: ");
+double a = readDouble();
+print (">: ");
+double b = readDouble();
+
+println ("Input a number for operation.");
+println ("1: +  2: -  3: X  4: /");
+print (">: ");
+int option = readInt();
+
+double answer = 0;
+switch (option) {
+	case 1:
+		answer = a+b;
+		break;
+	case 2:
+		answer = a-b;
+		break;
+	case 3:
+		answer = a*b;
+		break;
+	case 4:
+		if(b==0) {
+			println ("Cannot divide by 0");
+		} else {
+			answer = a/b;
+		}
+		break;
+	default:
+		println ("incorrect input");
+		break;
+}
+
+println ("Answer = " + answer);
