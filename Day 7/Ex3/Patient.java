@@ -44,6 +44,7 @@ public class Patient {
 	public void addPatient(Patient lastPatient, Patient newPatient) {
 		if (this.nextPatient == null) {
 			this.nextPatient = newPatient;
+			this.lastPatient = lastPatient;
 		} else {
 			this.nextPatient.addPatient(this, newPatient);
 		}
