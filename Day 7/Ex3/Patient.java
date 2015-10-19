@@ -34,9 +34,9 @@ public class Patient {
 			System.out.println("ID:\t" + this.pID);
 			System.out.println("Patient:" + this.name);
 			System.out.println("Age:\t" + this.age);
-			System.out.println("Illness:" + this.illness + "\n");
+			System.out.println("Illness:" + this.illness);
 			if (this.nextPatient != null)
-				System.out.println("next:" + this.nextPatient.name);
+				System.out.println("next:" + this.nextPatient.name + "\n");
 		}
 		
 		if(this.nextPatient != null) {

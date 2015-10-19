@@ -18,14 +18,15 @@ public class HospitalTest{
 		kings.add(p104);
 		kings.add(dud);
 		
-		System.out.println ("There are " + kings.getCount() + " patients.\n");
+		//System.out.println ("There are " + kings.getCount() + " patients.\n");
+		kings.print();
 		
-		//kings.delete(p100);
-		//kings.delete(dud);
+		kings.delete(p103);
+		kings.delete(dud);
 		
 		kings.print();
 		
-		//System.out.println ("There are " + kings.getCount() + " patients.");
+		System.out.println ("There are " + kings.getCount() + " patients.");
 	}	
 }
 
