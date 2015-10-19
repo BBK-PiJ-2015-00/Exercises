@@ -30,10 +30,13 @@ public class Patient {
 	
 	public void print() {
 		if(this.name!="patientList") {
+			System.out.println("Last patient: " + this.lastPatient.name);
 			System.out.println("ID:\t" + this.pID);
 			System.out.println("Patient:" + this.name);
 			System.out.println("Age:\t" + this.age);
 			System.out.println("Illness:" + this.illness + "\n");
+			if (this.nextPatient != null)
+				System.out.println("next:" + this.nextPatient.name);
 		}
 		
 		if(this.nextPatient != null) {
@@ -41,12 +44,12 @@ public class Patient {
 		}
 	}
 	
-	public void addPatient(Patient lastPatient, Patient newPatient) {
+	public void addPatient(Patient newPatient) {
 		if (this.nextPatient == null) {
 			this.nextPatient = newPatient;
-			this.lastPatient = lastPatient;
+			this.nextPatient.lastPatient = this;
 		} else {
-			this.nextPatient.addPatient(this, newPatient);
+			this.nextPatient.addPatient(newPatient);
 		}
 	}
 	

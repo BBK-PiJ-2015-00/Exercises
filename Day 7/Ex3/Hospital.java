@@ -10,7 +10,7 @@ public class Hospital{
 			System.out.println("Error: reserved name");
 			return;
 		}
-		this.patientList.addPatient(this.patientList, p);
+		this.patientList.addPatient(p);
 	}
 	
 	public void delete(Patient p) {

@@ -1,8 +1,8 @@
 public class HospitalTest{
 	
 	public static void main(String args[]) {
-		Hospital Kings = new Hospital();
-		Kings.launch();		
+		Hospital kings = new Hospital();
+		kings.launch();		
 		
 		Patient p100 = new Patient(100, "John", 32, "Piles");
 		Patient p101 = new Patient(101, "Gertrud", 63, "The bends");
@@ -11,21 +11,21 @@ public class HospitalTest{
 		Patient p104 = new Patient(104, "Glenda", 12, "Small cut");
 		Patient dud = new Patient(403, "patientList", 304, "bad breath");
 		
-		Kings.add(p100);
-		Kings.add(p101);
-		Kings.add(p102);
-		Kings.add(p103);
-		Kings.add(p104);
-		Kings.add(dud);
+		kings.add(p100);
+		kings.add(p101);
+		kings.add(p102);
+		kings.add(p103);
+		kings.add(p104);
+		kings.add(dud);
 		
-		System.out.println ("There are " + Kings.getCount() + " patients.\n");
+		System.out.println ("There are " + kings.getCount() + " patients.\n");
 		
-		Kings.delete(p100);
-		Kings.delete(dud);
+		//kings.delete(p100);
+		//kings.delete(dud);
 		
-		Kings.print();
+		kings.print();
 		
-		System.out.println ("There are " + Kings.getCount() + " patients.");
+		//System.out.println ("There are " + kings.getCount() + " patients.");
 	}	
 }
 
