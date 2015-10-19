@@ -4,6 +4,7 @@ public class Patient {
 	private int age;	
 	private String illness;
 	private Patient nextPatient;
+	private Patient lastPatient;
 	
 	public Patient(int pID, String name, int age, String illness) {
 		this.pID = pID;
@@ -11,6 +12,7 @@ public class Patient {
 		this.age = age;
 		this.illness = illness;
 		this.nextPatient = null;
+		this.lastPatient = null;
 	}
 	
 	public Patient(String s) {
@@ -39,11 +41,12 @@ public class Patient {
 		}
 	}
 	
-	public void addPatient(Patient newPatient) {
+	public void addPatient(Patient lastPatient, Patient newPatient) {
 		if (this.nextPatient == null) {
 			this.nextPatient = newPatient;
+			this.lastPatient = lastPatient;
 		} else {
-			this.nextPatient.addPatient(newPatient);
+			this.nextPatient.addPatient(this, newPatient);
 		}
 	}
 	
