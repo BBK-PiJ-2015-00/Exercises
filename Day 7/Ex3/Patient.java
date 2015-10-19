@@ -58,6 +58,7 @@ public class Patient {
 			return false;
 		} else if (this.nextPatient.pID == patient.pID) {
 			this.nextPatient = nextPatient.nextPatient;
+			this.nextPatient.lastPatient = this;
 			return true;
 		} else {
 			return this.nextPatient.deletePatient(patient);
