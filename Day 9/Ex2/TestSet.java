@@ -7,8 +7,10 @@ public class TestSet {
 	
 	private void launch() {
 		IntSet tree = new TreeIntSet(10);
+		IntSet list = new ListIntSet(10);
 		
 		test(tree);
+		test(list);
 	}
 	
 	private void test(IntSet set) {
