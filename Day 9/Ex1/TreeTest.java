@@ -8,14 +8,14 @@ public class TreeTest {
 	private void launch() {
 		IntegerTreeNode tree = new IntegerTreeNode(10);
 		
-		tree.add(5);
-		tree.add(9);
-		tree.add(2);
-		tree.add(6);
-		tree.add(3);
-		tree.add(7);
-		tree.add(8);
-		tree.add(1);
+		testTree(tree, 5);		
+		testTree(tree, 9);
+		testTree(tree, 2);
+		testTree(tree, 6);
+		testTree(tree, 3);
+		testTree(tree, 7);
+		testTree(tree, 8);
+		testTree(tree, 1);
 		
 		String s = "";
 		s += (tree.contains(3))? "Yes " : "No ";
@@ -25,4 +25,9 @@ public class TreeTest {
 		
 		System.out.println (s);
 	}
+	private void testTree(IntegerTreeNode tree, int value) {
+		tree.add(value);
+		System.out.println(tree.toString());
+	}
+	
 }

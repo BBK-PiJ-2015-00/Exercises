@@ -53,4 +53,35 @@ public class IntegerTreeNode {
 		
 		return this.right.getMax();
 	}
+	
+	public String toString() {
+		String s = "[" + this.value;
+		
+		if(this.left!=null) {
+			s += " L" + this.left.toString();
+		} else {
+			s += " L[]";
+		}
+		
+		if(this.right!=null) {
+			s += " R" + this.right.toString();
+		} else {
+			s += " R[]";
+		}
+		
+		return s + "]";
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
