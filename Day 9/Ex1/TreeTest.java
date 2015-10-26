@@ -21,7 +21,8 @@ public class TreeTest {
 		s += (tree.contains(3))? "Yes " : "No ";
 		
 		s += tree.getMax() + " ";
-		s += tree.getMin();
+		s += tree.getMin() + " ";
+		s += tree.depth();		
 		
 		System.out.println (s);
 	}

@@ -71,6 +71,20 @@ public class IntegerTreeNode {
 		
 		return s + "]";
 	}
+	
+	public int depth() {
+		int leftCount = 0;
+		int rightCount = 0;
+		
+		if(left != null) {
+			leftCount = 1 + this.left.depth();
+		}
+		if(right != null) {
+			rightCount = 1 + this.right.depth();
+		}
+		
+		return Math.max(leftCount, rightCount);
+	}
 }
 
 
