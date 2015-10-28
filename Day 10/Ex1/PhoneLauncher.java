@@ -6,8 +6,8 @@ public class PhoneLauncher {
 	
 	public void launch() {
 		Phone old = new OldPhone();
-		MobilePhone mobile = new MobilePhone();
-		SmartPhone smart = new SmartPhone();
+		MobilePhone mobile = new MobilePhone("Nokia");
+		SmartPhone smart = new SmartPhone("Samsung");
 		
 		old.call("555 *****");
 		mobTest(mobile);
@@ -19,8 +19,9 @@ public class PhoneLauncher {
 	}
 	
 	public void mobTest(MobilePhone phone) {
+		System.out.println(phone.getBrand());
 		phone.call("111 *****");
-		phone.call("222 *****");
+		phone.call("002 *****");
 		
 		phone.getMemory();
 		

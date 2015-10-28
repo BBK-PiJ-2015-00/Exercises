@@ -1,4 +1,11 @@
 public class SmartPhone extends MobilePhone {
+	public SmartPhone(String brand) {
+		super(brand);
+	}
+	public SmartPhone() {
+		super();
+	}
+	
 	public void browseWeb(String website) {
 		System.out.println ("Opening " + website + "...");
 	}

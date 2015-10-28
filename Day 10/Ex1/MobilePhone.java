@@ -3,6 +3,13 @@ public class MobilePhone extends OldPhone{
 	protected int memoryPointer = 0;
 	private String[] lastNumbers = new String[mobMemory];
 	
+	public MobilePhone(String brand) {
+		super(brand);
+	}
+	public MobilePhone() {
+		super();
+	}
+	
 	public void ringAlarm(String alarm) {
 		System.out.println (alarm + "! " + alarm + "!"); 
 	}
