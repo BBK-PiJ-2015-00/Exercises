@@ -9,10 +9,11 @@ public class PhoneLauncher {
 		MobilePhone mobile = new MobilePhone();
 		SmartPhone smart = new SmartPhone();
 		
-		old.call("000 *****");
+		old.call("555 *****");
 		mobTest(mobile);
 		mobTest(smart);
 		
+		smart.call("001");
 		smart.browseWeb("Google");
 		smart.findPosition();
 	}
