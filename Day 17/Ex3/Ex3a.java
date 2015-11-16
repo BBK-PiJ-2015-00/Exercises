@@ -5,11 +5,15 @@ public class Ex3a {
 	}
 	
 	private void launch() {
+		System.out.println("Input how many numbers you wish to find the mean of.");
+		int size = readInt();
+		
+		System.out.println("Now the numbers you wish to add together.");
 		int sum = 0;
-		for(int i = 0; i < 10; i++) {
+		for(int i = 0; i < size; i++) {
 			sum+=readInt();
 		}
-		double mean = sum/10.0;
+		double mean = sum/(0.0 + size);
 		System.out.println(mean);
 	}
 	
