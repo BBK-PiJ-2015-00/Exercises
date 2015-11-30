@@ -28,7 +28,7 @@ public class TextLoop implements Runnable {
 				r.run();
 			}
 		} else {
-			ThreadPoolExecutor e = new ThreadPoolExecutor(0,5,5,TimeUnit.SECONDS,workQueue);
+			ThreadPoolExecutor e = new ThreadPoolExecutor(3,5,5,TimeUnit.SECONDS,workQueue);
 			
 			for (int i = 0; i < 10; i++) {
 				Runnable r = new TextLoop("Thread " + i);				
