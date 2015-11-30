@@ -1,0 +1,42 @@
+2015-11-09 13:55:25,874 ERROR [main] - System.err - [org.eclipse.debug.core] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.debug.core.ILaunchConfigurationListener
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-11-09 13:55:27,621 ERROR [Worker-4] - System.err - 13:55:27,621 F: (BackendActivator.java:19) : Backend plugin starting
+2015-11-09 13:55:27,637 ERROR [Worker-4] - System.err - 13:55:27,637 F: (ErlangPlugin.java:73) : Core starting
+2015-11-09 13:55:28,384 ERROR [Worker-4] - System.err - 13:55:28,383 I: (ErlangCore.java:58) : Erlide log is in I:/My Documents/Programing in Java/Exercises
+2015-11-09 13:55:28,408 ERROR [Worker-4] - System.err - 13:55:28,408 I: (ErlangCore.java:64) : Starting CORE Thread[Worker-4,5,main]
+2015-11-09 13:55:28,431 ERROR [Worker-4] - System.err - 13:55:28,430 I: (ErlangCore.java:79) : *** starting Erlide v0.29.13.201509091656 (core=0.24.13.201509091656) (model api=0.24.12.201509091656) *** (Cp1252) ui
+2015-11-09 13:55:28,525 ERROR [Worker-4] - System.err - 13:55:28,524 I: (ErlangCore.java:86) : Started CORE
+2015-11-09 13:55:28,528 ERROR [Worker-4] - System.err - 13:55:28,527 F: (ErlangPlugin.java:88) : Core started
+2015-11-09 13:55:29,288 ERROR [Worker-4] - System.err - 13:55:29,287 F: (ErlangHostnameRetriever.java:40) : Test long hostname: CSPC133.dcs.bbk.ac.uk
+2015-11-09 13:55:29,557 ERROR [Worker-4] - System.err - 13:55:29,557 F: (ErlangHostnameRetriever.java:40) : Test short hostname: CSPC133
+2015-11-09 13:55:29,571 ERROR [Worker-4] - System.err - 13:55:29,571 F: (HostnameUtils.java:74) : Detected:: CSPC133 && CSPC133.dcs.bbk.ac.uk
+2015-11-09 13:55:29,592 ERROR [Worker-4] - System.err - 13:55:29,592 F: (BackendActivator.java:25) : Backend plugin started
+2015-11-09 13:55:29,596 ERROR [Worker-4] - System.err - 13:55:29,596 I: (ErlideUIPlugin.java:130) : Starting UI Thread[Worker-4,5,main]
+2015-11-09 13:55:29,599 ERROR [Worker-4] - System.err - 13:55:29,599 F: (ModelActivator.java:19) : Starting Erlang model api
+2015-11-09 13:55:29,615 ERROR [Worker-4] - System.err - 13:55:29,615 F: (BackendFactory.java:42) : Create ide backend 18.0.0
+2015-11-09 13:55:29,617 ERROR [Worker-4] - System.err - 13:55:29,617 F: (BackendFactory.java:56) : Create backend 61314_hbarre03_87bac9_erlide
+2015-11-09 13:55:29,702 ERROR [Worker-4] - System.err - 13:55:29,702 F: (OtpNodeProxy.java:301) : Runtime 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk starting
+2015-11-09 13:55:29,738 ERROR [OtpNodeProxy 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk] - System.err - 13:55:29,707 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.0/bin/erl", -name, 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk, -setcookie, erlide] *** I:\My Documents\Programing in Java\Exercises
+2015-11-09 13:55:29,758 ERROR [OtpNodeProxy 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk] - System.err - 13:55:29,758 F: (OtpNodeProxy.java:212) : 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk: waiting connection to peer...
+2015-11-09 13:55:30,177 ERROR [OtpNodeProxy 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk] - System.err - 13:55:30,176 F: (OtpNodeProxy.java:219) : connected!
+2015-11-09 13:55:30,369 ERROR [OtpNodeProxy 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk] - System.err - 13:55:30,369 F: (OtpNodeProxy.java:306) : Runtime 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk running
+2015-11-09 13:55:30,372 ERROR [OtpNodeProxy 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk] - System.err - 13:55:30,372 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_c87bb52@CSPC133.dcs.bbk.ac.uk'}
+2015-11-09 13:55:30,374 ERROR [OtpNodeProxy 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk] - System.err - 13:55:30,374 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+2015-11-09 13:55:30,805 ERROR [Worker-4] - System.err - 13:55:30,805 F: (ModelActivator.java:30) : Started model api
+2015-11-09 13:55:30,813 ERROR [Worker-4] - System.err - 13:55:30,812 I: (ErlideUIPlugin.java:152) : Started UI
+2015-11-09 13:55:32,083 ERROR [Worker-11] - System.err - Error Loading DDMS Preferences
+2015-11-09 13:57:22,030 ERROR [main] - System.err - [org.eclipse.jdt.launching] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.launching.JavaRuntime
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-11-09 13:59:59,014 ERROR [main] - System.err - [org.eclipse.jdt.junit] error can't determine modifiers of missing type org.eclipse.pde.internal.ui.wizards.imports.PluginImportHelper
+when weaving type org.eclipse.jdt.internal.junit.ui.JUnitQuickFixProcessor
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+2015-11-09 14:01:33,273 ERROR [Framework stop] - System.err - 14:01:33,273 F: (OtpNodeProxy.java:311) : Runtime 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk stopping
+2015-11-09 14:01:33,281 ERROR [OtpNodeProxy 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk] - System.err - 14:01:33,281 F: (OtpNodeProxy.java:271) : Runtime 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk terminated

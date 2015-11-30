@@ -1,0 +1,23 @@
+13:55:28,408 I: (ErlangCore.java:64) : Starting CORE Thread[Worker-4,5,main]
+13:55:28,430 I: (ErlangCore.java:79) : *** starting Erlide v0.29.13.201509091656 (core=0.24.13.201509091656) (model api=0.24.12.201509091656) *** (Cp1252) ui
+13:55:28,524 I: (ErlangCore.java:86) : Started CORE
+13:55:28,527 F: (ErlangPlugin.java:88) : Core started
+13:55:29,287 F: (ErlangHostnameRetriever.java:40) : Test long hostname: CSPC133.dcs.bbk.ac.uk
+13:55:29,557 F: (ErlangHostnameRetriever.java:40) : Test short hostname: CSPC133
+13:55:29,571 F: (HostnameUtils.java:74) : Detected:: CSPC133 && CSPC133.dcs.bbk.ac.uk
+13:55:29,592 F: (BackendActivator.java:25) : Backend plugin started
+13:55:29,596 I: (ErlideUIPlugin.java:130) : Starting UI Thread[Worker-4,5,main]
+13:55:29,599 F: (ModelActivator.java:19) : Starting Erlang model api
+13:55:29,615 F: (BackendFactory.java:42) : Create ide backend 18.0.0
+13:55:29,617 F: (BackendFactory.java:56) : Create backend 61314_hbarre03_87bac9_erlide
+13:55:29,702 F: (OtpNodeProxy.java:301) : Runtime 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk starting
+13:55:29,707 F: (OtpNodeProxy.java:419) : START node :> ["c:\program files\erl7.0/bin/erl", -name, 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk, -setcookie, erlide] *** I:\My Documents\Programing in Java\Exercises
+13:55:29,758 F: (OtpNodeProxy.java:212) : 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk: waiting connection to peer... 
+13:55:30,176 F: (OtpNodeProxy.java:219) : connected!
+13:55:30,369 F: (OtpNodeProxy.java:306) : Runtime 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk running
+13:55:30,372 F: (LogEventHandler.java:27) : info: {"Monitoring java node",'jerlide_c87bb52@CSPC133.dcs.bbk.ac.uk'}
+13:55:30,374 F: (LogEventHandler.java:27) : info: {"Start monitor process: ",10000000,50000000}
+13:55:30,805 F: (ModelActivator.java:30) : Started model api
+13:55:30,812 I: (ErlideUIPlugin.java:152) : Started UI
+14:01:33,273 F: (OtpNodeProxy.java:311) : Runtime 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk stopping
+14:01:33,281 F: (OtpNodeProxy.java:271) : Runtime 61314_hbarre03_87bac9_erlide@CSPC133.dcs.bbk.ac.uk terminated
