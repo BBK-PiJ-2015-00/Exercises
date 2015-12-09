@@ -1,0 +1,3 @@
+grant codeBase "file:/I:/My%20Documents/Programing%20in%20Java/Exercises/Day%2021/" {
+	permission java.security.AllPermission;
+};

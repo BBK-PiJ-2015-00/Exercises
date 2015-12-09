@@ -1,0 +1,11 @@
+::Temple of Gloom::
+
+leave gui alone, dont bother reading
+
+Look at Explorer class and write two methods, explore() and escape()
+
+Gamestate manages the game and what we will use the most
+
+run the main to start the game.
+
+faster search method, and more clever programming will get higher marks.
